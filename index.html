@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery Checkpoint</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <center>
+        <button id="bold" >Bold</button>
+        <button id="italic" >Italic</button>
+        <button id="underline">Underlined</button>
+        <select onChange="ChangeFont(this.value)">
+            <option value="Times New Roman, Times, Serif">Times New Roman</option>
+            <option value="Arial, Helvetica, sans-serif">Arial</option>
+            <option value="Georgia, Times, sans-serif">Georgia</option>
+            <option value="Courier New, Courier, monospace">Courier New</option>
+        </select>
+        <select onChange="ChangeSize(this.value)">
+                <option value="20px">20</option>
+                <option value="30px">30</option>
+                <option value="40px">40</option>
+                <option value="50px">50</option>
+            </select>
+        </center>
+        <div>
+        <p>By abstracting away various amounts of detail, mathematicians have defined various algebraic structures that are used in many areas of mathematics. For instance, almost all systems studied are sets, to which the theorems of set theory apply. Those sets that have a certain binary operation defined on them form magmas, to which the concepts concerning magmas, as well those concerning sets, apply. We can add additional constraints on the algebraic structure, such as associativity (to form semigroups); identity, and inverses (to form groups); and other more complex structures. With additional structure, more theorems could be proved, but the generality is reduced. The "hierarchy" of algebraic objects (in terms of generality) creates a hierarchy of the corresponding theories: for instance, the theorems of group theory may be used when studying rings (algebraic objects that have two binary operations with certain axioms) since a ring is a group over one of its operations. In general there is a balance between the amount of generality and the richness of the theory: more general structures have usually fewer nontrivial theorems and fewer applications.</p>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</html>
